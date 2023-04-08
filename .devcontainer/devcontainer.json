@@ -1,17 +1,11 @@
 {
-  "name": "CUDA workspace",
+  "name": "Chat workspace",
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspace",
   "customizations": {
     "vscode": {
       "settings": {
-        "terminal.integrated.profiles.linux": {
-          "fish": {
-            "path": "/usr/bin/fish",
-            "args": []
-          }
-        },
         "css.lint.unknownAtRules": "ignore"
       },
       "extensions": []

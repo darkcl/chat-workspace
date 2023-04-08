@@ -16,6 +16,8 @@ services:
     command: /bin/sh -c "while sleep 1000; do :; done"
     secrets:
       - host_ssh_key
+    ports:
+      - 7866:7860
     deploy:
       resources:
         reservations:
